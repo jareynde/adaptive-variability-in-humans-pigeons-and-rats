@@ -1,4 +1,4 @@
-1Simulations:		Contains all scripts and results of Study 1, the simulation study.
+1Simulations:		Contains all scripts of Study 1, the simulation study.
 
 2Model_recovrey: 	Contains all scripts and results of the model recoveries of the ε-α-λ model, the ε-α model, the ε-λ model and the ε-model in 4 different adversarial environments- the human/pigeon environments with 2, 4 and 8 choice-options and the rat environments with 5 choice options. Also contains model recovery scripts for the ‘alternative memory-based mechanisms for adaptive variability’ in the folder ‘modelrevoc_7models’.
 
