@@ -1,22 +1,12 @@
-1ML_eps: 	policy-gradient algorithm to learn epsilon in the ε-α-λ model in stable, volatile and adversarial environment. 
-1ML_lambda: 	policy-gradient algorithm to learn lambda in the ε-α-λ model in stable, volatile and adversarial environment. 
-1ML_lr:	policy-gradient algorithm to learn alpha in the ε-α-λ model in stable, volatile and adversarial environment. 
-2Constant_gridsearch: script to perform grid searcg with the ε-α-λ model in stable, volatile and adversarial environment.
-2Constant_gridsearch-findoptimal: script to find optimal parameter values in each environment, according to grid search.
-2Constant_gridsearch-plot: script to plot the heatmaps.
-2Constant_eps:	reward and second-order entropy of the ε-α-λ model in stable, volatile and adversarial environment, for different values of epsilon.
-2Constant_lambda:	reward and second-order entropy of the ε-α-λ model in stable, volatile and adversarial environment, for different values of lambda.
-2Constant_lr:	reward and second-order entropy of the ε-α-λ model in stable, volatile and adversarial environment, for different values of alpha.
-2Constant-heatmaps:	contains scrips and results from the grid search study
-3ML_adversarials_eps:	policy-gradient to learn epsilon in the ε-α-λ model in 5 different adversarial environments- the human/pigeon environments with 2, 4 and 8 choice-options, the rat environments with 5 choice options and the Hide-and-Seek environment with 8 choice options.
-3ML_adversarials_lambda:	policy-gradient to learn lambda in the ε-α-λ model in 5 different adversarial environments- the human/pigeon environments with 2, 4 and 8 choice-options, the rat environments with 5 choice options and the Hide-and-Seek environment with 8 choice options.
-3ML_adversarials_lr:	policy-gradient to learn alpha in the ε-α-λ model in 5 different adversarial environments- the human/pigeon environments with 2, 4 and 8 choice-options, the rat environments with 5 choice options and the Hide-and-Seek environment with 8 choice options.
+1Simulations:		Contains all scripts and results of Study 1, the simulation study.
+2Model_recovrey: 	Contains all scripts and results of the model recoveries of the ε-α-λ model, the ε-α model, the ε-λ model and the ε-model in 4 different adversarial environments- the human/pigeon environments with 2, 4 and 8 choice-options and the rat environments with 5 choice options. Also contains model recovery scripts for the ‘alternative memory-based mechanisms for adaptive variability’ in the folder ‘modelrevoc_7models’.
+3Parameter_recovery:	Contains all scripts and results of the parameter recovery of parameters in the ε-α-λ model in 4 different adversarial environments- the human/pigeon environments with 2, 4 and 8 choice-options and the rat environments with 5 choice options.
+4Data_fit:	Contains all scripts and results of the model fits. Folder ‘1eps-alpha-lambda’ contains analyses scripts and results from the main model analysis comparing the ε-α-λ model, the ε-α model, the ε-λ model and the ε-model. Folder ‘2alternative_lambda’ contains all analyses scripts and results from the ‘Alternative versions to implement the frequency-based memory’ model comparison. Folder ‘3HPC_fit7models’ contains all analyses scripts and results from the ‘Alternative memory-based mechanisms for adaptive variability’ model comparison.
+5Model_validation	Contains the analysis script and results figure from the model validation.
+Each of these 5 folders contains their own READ_ME file.
 
-Model_recov: script to perform a model recovery in each experimental environment with the ε-α-λ model and the ε-α model.
-Model_recov_plot: script to plot the results of the model recovery.
+figure_environments.py	Script to make Figure 1 showing the structure of the stable, volatile and adversarial environments.
+adversarial.png, stable.png, volatile.png	The panels of Figure 1 showing the structure of the respective environments
 
-Param_recov: script to perform a parameter recovery in each experimental environment with the ε-α-λ model.
 
-Human: script to fit the human data on the ε-α-λ model and the ε-α model
-Pigeon: script to fit the pigeon data on the ε-α-λ model and the ε-α model
-Rat: script to fit the rat data on the ε-α-λ model and the ε-α model
+
