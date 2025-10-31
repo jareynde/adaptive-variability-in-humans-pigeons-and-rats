@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=30
+#PBS -l mem=3GB
+#PBS -l walltime=36:00:00
+#PBS -m abe
+
+
+module load SciPy-bundle/2024.05-gfbf-2024a
+module load scikit-learn/1.6.1-gfbf-2024a
+
+cd /user/gent/455/vsc45596
+
+python ./Model_recov_M4_1_HaS1var_7models.py ${PBS_ARRAYID}
